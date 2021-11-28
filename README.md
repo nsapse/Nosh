@@ -1,5 +1,6 @@
 # NoSH :: Noah's Shell
 
+![Shell Demo](./NoSH.gif "Shell Demo")
 The following is my (largely successful) attempt to create a toy shell using standard C and linux system API calls. It does the following:
 
 - Provides the user with a prompt (':') to allow them to run commands (fairly essential).
@@ -13,4 +14,4 @@ The following is my (largely successful) attempt to create a toy shell using sta
 - Implements intput and output redirection from scratch using dup().
 - Implements custom signal handlers and background/foreground responses for SIGINT and SIGSTP.
 
-NoSH is a work in progress. It is definitely rough around the edges and I continue to work out its bugs as time allows.
+NoSH is a work in progress. It is definitely rough around the edges (there is a bug I haven't had time to figure out involving tracking backgroundprocesses) I hope continue to work out its bugs as time allows.
